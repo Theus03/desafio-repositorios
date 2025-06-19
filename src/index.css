@@ -1,0 +1,4 @@
+/* 3. Em src/index.css, adicione: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
