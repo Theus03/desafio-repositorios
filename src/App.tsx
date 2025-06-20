@@ -16,7 +16,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <RepositoryCard repo={repos} />
+        <h2 className='text-2xl font-bold text-start ml-4'>Todos os Repositórios</h2>
+        <RepositoryCard repo={repos} />
     </div>
   )
 }
